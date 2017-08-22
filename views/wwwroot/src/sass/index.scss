@@ -1,0 +1,37 @@
+//Colores
+$negro : #070707;
+$oro : #B49651;
+$blanco : #FFF;
+$gris : #5E5E5E;
+
+//Breakpoints
+$bp-xs: 320px;
+$bp-s: 460px;
+$bp-m: 768px;
+$bp-lg: 1024px;
+$bp-xl:1900px;
+
+//Header
+.logo-mobile{
+  display: none;
+  @media screen and (max-width: $bp-s){
+    display: block;
+  }
+}
+
+.logo-header{
+  display: block;
+  @media screen and (max-width: $bp-m){
+    display: none;
+  }
+}
+
+//Slider
+.slider{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
