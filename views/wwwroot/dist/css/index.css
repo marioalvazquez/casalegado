@@ -1,3 +1,30 @@
+html {
+  font-size: 16px; }
+
+.white-color {
+  color: #FFF; }
+
+.black-color {
+  color: #070707; }
+
+.gold-color {
+  color: #B49651; }
+
+.gray-color {
+  color: #5E5E5E; }
+
+.white-bg {
+  background: #FFF; }
+
+.black-bg {
+  background: #070707; }
+
+.gold-bg {
+  background: #B49651; }
+
+.gray-bg {
+  background: #5E5E5E; }
+
 .logo-mobile {
   display: none; }
   @media screen and (max-width: 460px) {
@@ -5,15 +32,145 @@
       display: block; } }
 
 .logo-header {
-  display: block; }
-  @media screen and (max-width: 768px) {
+  display: none; }
+  @media screen and (min-width: 460px) {
     .logo-header {
-      display: none; } }
+      display: block; } }
 
-.slider {
+.icon-menu {
+  width: 50px;
+  padding-right: 1rem;
+  padding-top: 1rem; }
+
+.menu-mobile {
+  display: none;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5); }
+  left: 0; }
+  .menu-mobile .icon-close {
+    font-size: 3rem; }
+  .menu-mobile ul {
+    padding-left: 0; }
+    .menu-mobile ul li {
+      list-style: none;
+      text-transform: uppercase;
+      text-align: center;
+      padding: .5rem;
+      margin: .5rem; }
+      .menu-mobile ul li a {
+        color: #FFF;
+        text-decoration: none;
+        transition: .3s all ease-in;
+        padding: 5px;
+        letter-spacing: 2px; }
+        .menu-mobile ul li a:hover {
+          border-top: 1px solid #FFF;
+          border-bottom: 1px solid #FFF;
+          letter-spacing: 3px; }
+
+.slider {
+  height: 100vh;
+  margin-top: -65px;
+  background-image: url("../img/slider.png");
+  background-size: cover;
+  background-position: 50%;
+  z-index: -1; }
+  .slider .slider-body {
+    padding-top: 50%; }
+
+.slider-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem; }
+
+.slider-subtitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem; }
+  .slider-subtitle::after {
+    content: '-'; }
+  .slider-subtitle::before {
+    content: '-'; }
+
+.slider-btn {
+  margin-top: 2rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 1rem;
+  margin-top: 1rem; }
+  .slider-btn a {
+    color: #FFF;
+    text-decoration: none;
+    border: 0.1rem solid #FFF;
+    padding: 1rem; }
+
+.title-1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #B49651;
+  padding: 2rem; }
+  @media screen and (min-width: 768px) {
+    .title-1 {
+      font-size: 2rem; } }
+
+#suites {
+  text-transform: uppercase;
+  color: #070707; }
+  #suites p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    #suites p a {
+      padding: 1rem 1rem;
+      border-top: 1px solid #B49651;
+      transition: .5s all ease-in;
+      text-decoration: none;
+      color: #B49651; }
+      #suites p a:hover {
+        border-bottom: 1px solid #B49651; }
+  #suites h3 {
+    font-weight: bold;
+    color: #B49651;
+    font-size: 2rem; }
+  #suites h4 {
+    color: #B49651; }
+  #suites .image {
+    background-size: cover !important;
+    background-position: 50% !important;
+    min-height: 280px !important; }
+    @media screen and (min-width: 768px) {
+      #suites .image {
+        min-height: 320px !important; } }
+  #suites .one {
+    background: url("../img/suites1.jpg"); }
+  #suites .two {
+    background: url("../img/suites2.jpg"); }
+
+#amenities {
+  background: #070707;
+  color: #FFF;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.amenities-card {
+  min-height: 320px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #B49651;
+  text-align: center; }
+  .amenities-card span {
+    font-size: 5rem;
+    color: #B49651;
+    margin: 1rem; }
+
+.card-title {
+  color: #B49651;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  text-transform: uppercase; }

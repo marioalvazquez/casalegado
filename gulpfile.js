@@ -27,21 +27,21 @@ gulp.task('images', () => {
 });
 
 gulp.task('minify-css', () =>{
-  return gulp.src('./views/wwwroot/dist/css/*.css')
+  return gulp.src('views/wwwroot/dist/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('./views/wwwroot/build/css'))
+    .pipe(gulp.dest('views/wwwroot/build/css'))
 });
 
 gulp.task('sass', () => {
-  return gulp.src('./views/wwwroot/src/sass/*.scss')
+  return gulp.src('views/wwwroot/src/sass/*.scss')
   .pipe(sass().on('error', sass.logError))
-  .pipe(gulp.dest('./views/wwwroot/dist/css'));
+  .pipe(gulp.dest('views/wwwroot/dist/css'));
 });
 
 gulp.task('watch', () => {
-  gulp.watch('./views/wwwroot/src/sass/*.scss', ['sass']);
-  gulp.watch('./views/wwwroot/dist/css/*.css', ['minify-css']);
-  gulp.watch('./views/wwwroot/dist/img/*.png', ['images']);
+  gulp.watch('views/wwwroot/src/sass/*.scss', ['sass']);
+  gulp.watch('views/wwwroot/dist/css/*.css', ['minify-css']);
+  gulp.watch('views/wwwroot/dist/img/*.png', ['images']);
 })
 
 gulp.task('default', ['webserver', 'watch']);

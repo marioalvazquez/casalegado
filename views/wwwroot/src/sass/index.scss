@@ -1,8 +1,8 @@
 //Colores
-$negro : #070707;
-$oro : #B49651;
-$blanco : #FFF;
-$gris : #5E5E5E;
+$black : #070707;
+$gold : #B49651;
+$white : #FFF;
+$gray : #5E5E5E;
 
 //Breakpoints
 $bp-xs: 320px;
@@ -11,6 +11,34 @@ $bp-m: 768px;
 $bp-lg: 1024px;
 $bp-xl:1900px;
 
+//General
+html{
+  font-size: 16px;
+}
+.white-color{
+  color: $white;
+}
+.black-color{
+  color: $black;
+}
+.gold-color{
+  color: $gold;
+}
+.gray-color{
+  color: $gray;
+}
+.white-bg{
+  background: $white;
+}
+.black-bg{
+  background: $black;
+}
+.gold-bg{
+background: $gold;
+}
+.gray-bg{
+background: $gray;
+}
 //Header
 .logo-mobile{
   display: none;
@@ -20,18 +48,179 @@ $bp-xl:1900px;
 }
 
 .logo-header{
-  display: block;
-  @media screen and (max-width: $bp-m){
-    display: none;
+  display: none;
+  @media screen and (min-width: $bp-s){
+    display: block;
   }
 }
+.icon-menu{
+  width: 50px;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
 
-//Slider
-.slider{
+//Mobile menu
+
+.menu-mobile{
+  display: none;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  .icon-close{
+    font-size: 3rem;
+  }
+  ul{
+    padding-left: 0;
+    li{
+      list-style: none;
+      text-transform: uppercase;
+      text-align: center;
+      padding: .5rem;
+      margin: .5rem;
+      a{
+        color: $white;
+        text-decoration: none;
+        transition: .3s all ease-in;
+        padding: 5px;
+        letter-spacing: 2px;
+          &:hover{
+            border-top: 1px solid $white;
+            border-bottom: 1px solid $white;
+            letter-spacing: 3px;
+          }
+      }
+    }
+  }
+}
+
+
+
+//Slider
+.slider{
+  height: 100vh;
+  margin-top: -65px;
+  background-image: url('../img/slider.png');
+  background-size: cover;
+  background-position: 50%;
+  z-index: -1;
+  .slider-body{
+    padding-top: 50%;
+  }
+}
+.slider-title{
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+}
+.slider-subtitle{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+    &::after{
+      content: '-';
+    }
+    &::before{
+      content: '-';
+    }
+}
+.slider-btn{
+  margin-top: 2rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+  a{
+    color: $white;
+    text-decoration: none;
+    border: .1rem solid $white;
+    padding: 1rem;
+  }
+}
+
+
+//Sections general
+.title-1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  @media screen and (min-width: $bp-m){
+    font-size: 2rem;
+  }
+  letter-spacing: 2px;
+  color: $gold;
+  padding: 2rem;
+}
+
+//suites
+#suites{
+  text-transform: uppercase;
+  color: $black;
+  p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    a{
+      padding: 1rem 1rem;
+      border-top: 1px solid $gold;
+      transition: .5s all ease-in;
+      text-decoration: none;
+      color: $gold;
+      &:hover{
+        border-bottom: 1px solid $gold;
+      }
+    }
+  }
+  h3{
+    font-weight: bold;
+    color: $gold;
+    font-size: 2rem;
+  }
+  h4{
+    color: $gold;
+  }
+  .image{
+    background-size: cover !important;
+    background-position: 50% !important;
+    min-height: 280px !important;
+    @media screen and (min-width: $bp-m){
+      min-height: 320px !important;
+    }
+  }
+  .one{
+    background: url('../img/suites1.jpg');
+  }
+  .two{
+    background: url('../img/suites2.jpg');
+  }
+}
+
+
+//amenities
+#amenities{
+  background: $black;
+  color: $white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.amenities-card{
+  min-height: 320px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid $gold;
+  text-align: center;
+  span{
+    font-size: 5rem;
+    color: $gold;
+    margin: 1rem;
+  }
+}
+.card-title{
+  color: $gold;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
