@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500,600,700|Julius+Sans+One|Source+Sans+Pro:200,300,400,600,700,900");
 html {
   font-size: 16px; }
+
+h1, h2, h3, h4 {
+  font-family: 'Julius Sans One', sans-serif; }
+
+p {
+  font-family: 'Archivo Narrow', sans-serif; }
+
+a {
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .white-color {
   color: #FFF; }
@@ -157,6 +167,10 @@ html {
   color: #FFF;
   padding-top: 3rem;
   padding-bottom: 3rem; }
+  @media screen and (min-width: 768px) {
+    #amenities {
+      padding-top: 5rem;
+      padding-bottom: 5rem; } }
 
 .amenities-card {
   min-height: 320px;
@@ -169,8 +183,41 @@ html {
     color: #B49651;
     margin: 1rem; }
 
+.card-text {
+  line-height: 1.5rem;
+  letter-spacing: 2px; }
+
 .card-title {
   color: #B49651;
   letter-spacing: 3px;
   font-size: 1.5rem;
   text-transform: uppercase; }
+
+#footer {
+  background: url("../img/footer-bg.png");
+  background-position: 50%;
+  background-size: cover;
+  min-height: 20rem; }
+  #footer img {
+    width: 80%; }
+  #footer .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+    @media screen and (min-width: 768px) {
+      #footer .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem; } }
+  #footer ul li {
+    list-style: none; }
+  #footer ul a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    #footer ul a span {
+      color: #B49651; }
+
+.social-icons span {
+  font-size: 2rem;
+  padding: 1rem;
+  color: #B49651; }

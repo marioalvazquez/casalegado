@@ -1,4 +1,7 @@
-//Colores
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500,600,700|Julius+Sans+One|Source+Sans+Pro:200,300,400,600,700,900');
+
+//Colors
 $black : #070707;
 $gold : #B49651;
 $white : #FFF;
@@ -14,6 +17,15 @@ $bp-xl:1900px;
 //General
 html{
   font-size: 16px;
+}
+h1,h2,h3,h4{
+  font-family: 'Julius Sans One', sans-serif;
+}
+p{
+  font-family: 'Archivo Narrow', sans-serif;
+}
+a{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .white-color{
   color: $white;
@@ -205,6 +217,10 @@ background: $gray;
   color: $white;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  @media screen and (min-width: $bp-m){
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 .amenities-card{
   min-height: 320px;
@@ -218,9 +234,56 @@ background: $gray;
     margin: 1rem;
   }
 }
+.card-text{
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+}
 .card-title{
   color: $gold;
   letter-spacing: 3px;
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+
+//Footer
+#footer{
+  background: url('../img/footer-bg.png');
+  background-position: 50%;
+  background-size: cover;
+  min-height: 20rem;
+  img{
+    width: 80%;
+  }
+  .container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @media screen and (min-width: $bp-m){
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+  ul{
+    li{
+      list-style: none;
+    }
+    a{
+      span{
+        color: $gold;
+      }
+      color: $white;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+
+.social-icons{
+  span{
+    font-size: 2rem;
+    padding: 1rem;
+    color: $gold;
+  }
 }

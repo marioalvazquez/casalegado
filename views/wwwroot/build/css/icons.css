@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?rfx1g8');
-  src:  url('../fonts/icomoon.eot?rfx1g8#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?rfx1g8') format('truetype'),
-    url('../fonts/icomoon.woff?rfx1g8') format('woff'),
-    url('../fonts/icomoon.svg?rfx1g8#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?7olcoz');
+  src:  url('../fonts/icomoon.eot?7olcoz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7olcoz') format('truetype'),
+    url('../fonts/icomoon.woff?7olcoz') format('woff'),
+    url('../fonts/icomoon.svg?7olcoz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-phone:before {
+  content: "\e0cd";
+}
 .icon-close:before {
   content: "\e5cd";
 }
@@ -42,9 +45,24 @@
 .icon-restaurant_menu:before {
   content: "\e561";
 }
+.icon-mail_outline:before {
+  content: "\e0e1";
+}
 .icon-menu:before {
   content: "\e5d2";
 }
+.icon-near_me:before {
+  content: "\e569";
+}
 .icon-pool:before {
   content: "\eb48";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
 }
