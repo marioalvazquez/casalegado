@@ -11,12 +11,14 @@ $(document).ready(() => {
 function hideMenu() {
   $('.icon-close').on('click', () => {
     $('.menu-mobile').fadeOut();
+    $('.slider-body').fadeIn();
   });
 }
 
 function showMenu() {
   $('.icon-menu').on('click', () => {
     $('.menu-mobile').fadeIn();
+    $('.slider-body').fadeOut();
   })
 }
 

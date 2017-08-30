@@ -73,6 +73,13 @@ background: $gray;
 
 //Mobile menu
 
+.menu-mobile-open{
+  display: block;
+  @media screen and(min-width: $bp-lg){
+    display: none;
+  }
+}
+
 .menu-mobile{
   display: none;
   position: absolute;
@@ -107,7 +114,29 @@ background: $gray;
   }
 }
 
-
+//Desktop-menu
+.menu-desktop{
+  display: none;
+  ul{
+    display: flex;
+    justify-content: space-around;
+    li{
+      a{
+        color: $white;
+        text-decoration: none;
+      }
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1rem;
+      list-style: none;
+      padding-top: 1rem;
+    }
+  }
+  @media screen and(min-width: $bp-lg){
+    display: block;
+    justify-content: space-around;
+  }
+}
 
 //Slider
 .slider{
@@ -119,8 +148,14 @@ background: $gray;
   z-index: -1;
   .slider-body{
     padding-top: 50%;
+    @media screen and(min-width: $bp-m){
+        padding-top: 30%;
+      }
+      @media screend and(min-width: $bp-lg){
+        padding-top: 25%;
+      }
+    }
   }
-}
 .slider-title{
   font-size: 3rem;
   text-transform: uppercase;
@@ -286,4 +321,10 @@ background: $gray;
     padding: 1rem;
     color: $gold;
   }
+}
+
+.footer-last{
+  background: $black;
+  color: $white;
+  padding: 2rem 0;
 }
