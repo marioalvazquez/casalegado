@@ -11,6 +11,9 @@ p {
 a {
   font-family: 'Source Sans Pro', sans-serif; }
 
+li {
+  list-style: none; }
+
 .white-color {
   color: #FFF; }
 
@@ -257,3 +260,28 @@ a {
   background: #070707;
   color: #FFF;
   padding: 2rem 0; }
+
+#services .services-col {
+  min-height: 300px;
+  background-size: cover !important;
+  background-position: 50% !important; }
+
+#services .socials {
+  background: url("../../build/img/services2.png"); }
+
+#services .villages {
+  background: url("../../build/img/services1.png"); }
+
+#services .restaurant {
+  background: url("../../build/img/services2.png"); }
+
+#services .spa {
+  background: url("../../build/img/services1.png"); }
+
+#services .wellness {
+  background: url("../../build/img/services2.png"); }
+
+#services h2 {
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: .3rem; }
