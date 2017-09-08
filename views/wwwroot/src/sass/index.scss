@@ -64,6 +64,7 @@ background: $gray;
 
 .logo-header{
   display: none;
+  max-width: 250px;
   @media screen and (min-width: $bp-s){
     display: block;
   }
@@ -120,6 +121,7 @@ background: $gray;
 //Desktop-menu
 .menu-desktop{
   display: none;
+  border-bottom: 1px solid $gold;
   ul{
     display: flex;
     justify-content: space-around;
@@ -132,7 +134,6 @@ background: $gray;
       letter-spacing: 2px;
       font-size: 1rem;
       list-style: none;
-      padding-top: 1rem;
     }
   }
   @media screen and(min-width: $bp-lg){
