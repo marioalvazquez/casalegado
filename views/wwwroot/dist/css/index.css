@@ -231,6 +231,13 @@ li {
   #suites .two {
     background: url("../img/suites2.jpg"); }
 
+.villages-img {
+  min-height: 400px;
+  background-size: cover;
+  background-position: 50%; }
+  .villages-img .vi-one {
+    background: url("../img/suites1.jpg"); }
+
 #amenities {
   background: #070707;
   color: #FFF;
@@ -320,3 +327,31 @@ li {
   color: #FFF;
   font-weight: bold;
   letter-spacing: .3rem; }
+
+.before-card {
+  width: 80%;
+  min-height: 250px;
+  margin: 10% auto;
+  background-size: cover !important;
+  background-position: 50%;
+  position: relative; }
+
+.bc-one {
+  background: url("../../build/img/8-02.jpg"); }
+
+.bc-two {
+  background: url("../../build/img/8-07.jpg"); }
+
+.bc-three {
+  background: url("../../build/img/IMG_0300.jpg"); }
+
+.bc-four {
+  background: url("../../build/img/IMG_9527-2.jpg"); }
+
+.floating-card {
+  position: absolute;
+  right: -50px;
+  top: 20%;
+  padding: 1rem .5rem;
+  background: #B49651;
+  color: #FFF; }
