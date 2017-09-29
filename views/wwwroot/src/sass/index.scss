@@ -316,6 +316,11 @@ p{
   padding: 1rem;
   border: 1px solid $gold;
   text-align: center;
+  img{
+    @media screen and (min-width: $bp-m){
+      width: 70%;
+    }
+  }
   span{
     font-size: 5rem;
     color: $gold;

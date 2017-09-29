@@ -254,6 +254,9 @@ li {
   padding: 1rem;
   border: 1px solid #B49651;
   text-align: center; }
+  @media screen and (min-width: 768px) {
+    .amenities-card img {
+      width: 70%; } }
   .amenities-card span {
     font-size: 5rem;
     color: #B49651;
