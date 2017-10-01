@@ -38,6 +38,19 @@ li {
 .gray-bg {
   background: #5E5E5E; }
 
+.arrow {
+  padding: .5rem;
+  font-size: 1.5rem;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.left-slider {
+  margin-right: 1rem; }
+
+.right-slider {
+  margin-left: 1rem; }
+
 .logo-mobile {
   display: none; }
   @media screen and (max-width: 460px) {
@@ -46,7 +59,7 @@ li {
 
 .logo-header {
   display: none;
-  max-width: 250px; }
+  max-width: 215px; }
   @media screen and (min-width: 460px) {
     .logo-header {
       display: block; } }
@@ -146,7 +159,7 @@ li {
 .slider {
   height: 100vh;
   margin-top: -65px;
-  background-image: url("../img/slider.png");
+  background-image: url("../img/slider1.png");
   background-size: cover;
   background-position: 50%;
   z-index: -1; }

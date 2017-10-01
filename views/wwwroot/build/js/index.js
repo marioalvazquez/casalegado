@@ -24,7 +24,17 @@ $(document).ready(() => {
 })
 });
 
-
+//simulated-main-slider
+$('.arrow').on('click', function(){
+  var position = Math.floor((Math.random() * 4) + 1);
+  var img = `slider${position}`;
+  $('.slider')
+    .animate({opacity: 0}, 400, function() {
+        $(this)
+            .css({'background-image': `url(wwwroot/build/img/${img}.jpg)`})
+            .animate({opacity: 1});
+    });
+});
 
 
 //show n' hide mobile menu-mobile
