@@ -29,7 +29,7 @@ $('.arrow').on('click', function(){
   var position = Math.floor((Math.random() * 4) + 1);
   var img = `slider${position}`;
   $('.slider')
-    .animate({opacity: 0}, 400, function() {
+    .animate({opacity: 0.25}, 200, function() {
         $(this)
             .css({'background-image': `url(wwwroot/build/img/${img}.jpg)`})
             .animate({opacity: 1});

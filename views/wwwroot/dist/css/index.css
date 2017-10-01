@@ -142,16 +142,16 @@ li {
     text-align: left;
     text-transform: uppercase;
     position: absolute;
-    top: inherit; }
+    top: 37px; }
 
 #booking {
-  top: 36px !important;
+  top: 51px !important;
   right: 10px !important; }
   #booking p {
     left: -27px; }
 
 #exclusive {
-  top: 36px !important;
+  top: 51px !important;
   right: 130px !important; }
   #exclusive p {
     left: -34px !important; }
