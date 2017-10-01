@@ -55,6 +55,11 @@ background: $gold;
 background: $gray;
 }
 
+.paragraph{
+  padding: 0 5rem;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+}
 //icons
 .arrow{
   padding: .5rem;
@@ -261,6 +266,8 @@ p{
   color: $gold;
   padding: 2rem;
 }
+
+//intro
 
 //suites
 #suites{
