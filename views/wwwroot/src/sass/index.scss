@@ -56,7 +56,6 @@ background: $gray;
 }
 
 .paragraph{
-  padding: 0 5rem;
   box-sizing: border-box;
   letter-spacing: 2px;
 }
@@ -269,8 +268,16 @@ p{
 
 //intro
 
+
+// External framework fixes
+
+.slick-slide{
+  outline: none;
+}
+
+
 //suites
-#suites{
+#suites, #wellness{
   text-transform: uppercase;
   color: $black;
   p{
@@ -322,7 +329,32 @@ p{
     background: url('../img/suites1.jpg');
   }
 }
+.v-card-2{
+  margin: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 2px;
+  &:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  background: $white;
+}
 
+.villas-1{
+  background: url('../img/villas1.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 300px;
+}
+
+.villas-2{
+  background: url('../img/villas2.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 300px;
+}
 
 //amenities
 #amenities{
@@ -336,15 +368,13 @@ p{
   }
 }
 .amenities-card{
-  min-height: 320px;
   margin: 1rem;
   padding: 1rem;
   border: 1px solid $gold;
   text-align: center;
   img{
-    @media screen and (min-width: $bp-m){
-      width: 70%;
-    }
+    margin: 0 auto;
+    max-width: 80px;
   }
   span{
     font-size: 5rem;
@@ -472,3 +502,16 @@ p{
   background: $gold;
   color: $white;
 }
+ //spa
+
+ #spa, #restaurant{
+   background: $black;
+   h3{
+     font-weight: 700;
+     color: $gold;
+     font-size: 2rem;
+   }
+   h4{
+     color: $gold;
+   }
+ }

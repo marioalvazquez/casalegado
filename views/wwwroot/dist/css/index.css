@@ -39,7 +39,6 @@ li {
   background: #5E5E5E; }
 
 .paragraph {
-  padding: 0 5rem;
   box-sizing: border-box;
   letter-spacing: 2px; }
 
@@ -215,38 +214,41 @@ li {
     .title-1 {
       font-size: 2rem; } }
 
-#suites {
+.slick-slide {
+  outline: none; }
+
+#suites, #wellness {
   text-transform: uppercase;
   color: #070707; }
-  #suites p {
+  #suites p, #wellness p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem; }
-    #suites p a {
+    #suites p a, #wellness p a {
       padding: 1rem 1rem;
       border-top: 1px solid #B49651;
       transition: .5s all ease-in;
       text-decoration: none;
       color: #B49651; }
-      #suites p a:hover {
+      #suites p a:hover, #wellness p a:hover {
         border-bottom: 1px solid #B49651; }
-  #suites h3 {
+  #suites h3, #wellness h3 {
     font-weight: bold;
     color: #B49651;
     font-size: 2rem; }
-  #suites h4 {
+  #suites h4, #wellness h4 {
     color: #B49651; }
-  #suites .image {
+  #suites .image, #wellness .image {
     background-size: cover !important;
     background-position: 50% !important;
     min-height: 280px !important; }
     @media screen and (min-width: 768px) {
-      #suites .image {
+      #suites .image, #wellness .image {
         min-height: 320px !important; } }
-  #suites .one {
+  #suites .one, #wellness .one {
     background: url("../img/suites1.jpg"); }
-  #suites .two {
+  #suites .two, #wellness .two {
     background: url("../img/suites2.jpg"); }
 
 .villages-img {
@@ -255,6 +257,29 @@ li {
   background-position: 50%; }
   .villages-img .vi-one {
     background: url("../img/suites1.jpg"); }
+
+.v-card-2 {
+  margin: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 2px;
+  background: #FFF; }
+  .v-card-2:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.villas-1 {
+  background: url("../img/villas1.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 300px; }
+
+.villas-2 {
+  background: url("../img/villas2.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 300px; }
 
 #amenities {
   background: #070707;
@@ -267,14 +292,13 @@ li {
       padding-bottom: 5rem; } }
 
 .amenities-card {
-  min-height: 320px;
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #B49651;
   text-align: center; }
-  @media screen and (min-width: 768px) {
-    .amenities-card img {
-      width: 70%; } }
+  .amenities-card img {
+    margin: 0 auto;
+    max-width: 80px; }
   .amenities-card span {
     font-size: 5rem;
     color: #B49651;
@@ -376,3 +400,12 @@ li {
   padding: 1rem .5rem;
   background: #B49651;
   color: #FFF; }
+
+#spa, #restaurant {
+  background: #070707; }
+  #spa h3, #restaurant h3 {
+    font-weight: 700;
+    color: #B49651;
+    font-size: 2rem; }
+  #spa h4, #restaurant h4 {
+    color: #B49651; }
