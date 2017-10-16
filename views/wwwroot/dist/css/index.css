@@ -55,6 +55,24 @@ li {
 .right-slider {
   margin-left: 1rem; }
 
+.cl-btn {
+  color: #B49651;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  transition: .3s all ease-out;
+  outline: none; }
+  .cl-btn:hover {
+    border-top: 1px solid #B49651;
+    border-bottom: 1px solid #B49651;
+    letter-spacing: 2px;
+    color: #B49651;
+    text-decoration: none; }
+  .cl-btn:active, .cl-btn:visited {
+    color: #B49651;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    outline: none; }
+
 .logo-mobile {
   display: none; }
   @media screen and (max-width: 460px) {

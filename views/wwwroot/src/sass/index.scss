@@ -74,7 +74,27 @@ background: $gray;
   margin-left: 1rem;
 }
 
-
+//buttons
+.cl-btn{
+  color: $gold;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  transition: .3s all ease-out;
+  outline: none;
+  &:hover{
+    border-top: 1px solid $gold;
+    border-bottom: 1px solid $gold;
+    letter-spacing: 2px;
+    color: $gold;
+    text-decoration: none;
+  }
+  &:active, &:visited{
+    color: $gold;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    outline: none;
+  }
+}
 
 //Header
 .logo-mobile{
