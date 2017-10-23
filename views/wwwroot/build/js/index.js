@@ -2,6 +2,12 @@ $(document).ready(() => {
   hideMenu();
   showMenu();
   setCurrentDate();
+  $('.menu-mobile a').on('click', () => {
+    $('.menu-mobile').fadeOut();
+    $('.container-fluid').fadeIn();
+    $('.slider-body').fadeIn();
+    $('header').show();
+  });
 });
 
 //smooth scroll

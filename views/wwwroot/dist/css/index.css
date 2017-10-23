@@ -98,6 +98,9 @@ header {
   padding-right: 1rem;
   padding-top: 1rem;
   cursor: pointer; }
+  @media screen and (min-width: 460px) {
+    .icon-menu {
+      padding-top: 0rem; } }
 
 .menu-mobile-open {
   display: block; }
@@ -113,7 +116,8 @@ header {
   right: 0;
   left: 0; }
   .menu-mobile .icon-close {
-    font-size: 3rem; }
+    font-size: 3rem;
+    cursor: pointer; }
   .menu-mobile ul {
     padding-left: 0; }
     .menu-mobile ul li {

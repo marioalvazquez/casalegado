@@ -122,6 +122,9 @@ header {
   width: 50px;
   padding-right: 1rem;
   padding-top: 1rem;
+  @media screen and (min-width: $bp-s){
+    padding-top: 0rem;
+  }
   cursor: pointer;
 }
 
@@ -143,6 +146,7 @@ header {
   left: 0;
   .icon-close{
     font-size: 3rem;
+    cursor: pointer;
   }
   ul{
     padding-left: 0;
