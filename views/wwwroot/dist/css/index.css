@@ -73,6 +73,13 @@ li {
     padding: .5rem 1rem;
     outline: none; }
 
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); }
+
 .logo-mobile {
   display: none; }
   @media screen and (max-width: 460px) {
@@ -89,7 +96,8 @@ li {
 .icon-menu {
   width: 50px;
   padding-right: 1rem;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  cursor: pointer; }
 
 .menu-mobile-open {
   display: block; }
@@ -180,7 +188,6 @@ li {
 
 .slider {
   height: 100vh;
-  margin-top: -65px;
   background-image: url("../img/slider1.png");
   background-size: cover;
   background-position: 50%;
@@ -212,9 +219,13 @@ li {
   margin-top: 2rem;
   font-size: .7rem;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  padding: 1rem;
+  letter-spacing: 2px;
+  padding: 2px;
   margin-top: 1rem; }
+  @media screen and (min-width: 768px) {
+    .slider-btn {
+      letter-spacing: 5px;
+      padding: 1rem; } }
   .slider-btn a {
     color: #FFF;
     text-decoration: none;

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/wwwroot/build/css/villages.css">
+  </head>
+  <body>
+    <div class="container-fluid villages-hero">
+      <div class="container">
+        <div class="col-sm-12">
+          <h1 class="villages-title"></h1>
+          <h2 class="villages-heading"></h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="margin:2rem 0">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>la villa</h2>
+          <div class="description">
+
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2>amenidades</h2>
+<div class="table-responsive">
+          <table class="table table-stripped table-hover table-bordered">
+            <tr>
+              <th>Ocupación</th>
+              <td><span class="ocupation"></span> personas</td>
+            </tr>
+            <tr>
+              <th>Recamaras</th>
+              <td><span class="bedroom"></span></td>
+            </tr>
+            <tr>
+              <th>Camas</th>
+              <td><span class="bed"></span></td>
+            </tr>
+            <tr>
+              <th>Tina exterior</th>
+              <td><span class="outdoor-tub"></span></td>
+            </tr>
+            <tr>
+              <th>Extras</th>
+              <td>
+                <ul class="extra">
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="price-card text-center">
+            <span>Desde: <span class="price"></span> por persona por noche</span>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="reservation-card text-center">
+            <span>Reserva ahora: <a href="tel:4494063400">+52 (449) 406 3400</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="/wwwroot/build/js/initializer.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var idVillage = window.location.search.substring(1).split("=")[1];
+      console.log(idVillage);
+      var result = [];
+
+      $.get('/wwwroot/build/data/villages.json', (data) => {
+        result = data[idVillage -1];
+        fillPage(result);
+      });
+
+      function fillPage(result){
+        $('title').text(result.name);
+        $('.villages-hero').css("background-image", `url(/wwwroot/build/img/${result.hero})`);
+        $('.villages-hero').find('h1').text(result.name);
+        $('.villages-hero').find('h2').text(result.heading);
+        result.description.forEach((i, index) => {
+          $('.description').append(`<p>${i}</p>`);
+        });
+        $('.ocupation').text(result.amenities.ocupation);
+        $('.bedroom').text(result.amenities.bedrooms);
+        $('.bed').text(`${result.amenities.beds} ${result.amenities.bedType}`);
+        $('.outdoor-tub').text((result.amenities.outdoorTub ? "Sí": "No"));
+        result.extras.forEach((i, index) => {
+          $('.extra').append(`<li>${i}</li>`)
+        });
+        $('.price').text(result.price);
+      }
+    </script>
+  </body>
+</html>

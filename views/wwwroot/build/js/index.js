@@ -42,6 +42,7 @@ $('a.scroll')
 
 
 //simulated-main-slider
+
 $('.arrow').on('click', function(){
   var position = Math.floor((Math.random() * 4) + 1);
   var img = `slider${position}`;
@@ -59,6 +60,8 @@ function hideMenu() {
   $('.icon-close').on('click', () => {
     $('.menu-mobile').fadeOut();
     $('.slider-body').fadeIn();
+    $('header').show()
+    $('.container-fluid').show();
   });
 }
 
@@ -66,6 +69,8 @@ function showMenu() {
   $('.icon-menu').on('click', () => {
     $('.menu-mobile').fadeIn();
     $('.slider-body').fadeOut();
+    $('header').hide();
+    $('.container-fluid').hide();
   })
 }
 
