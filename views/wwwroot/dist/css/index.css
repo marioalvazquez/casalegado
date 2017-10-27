@@ -192,16 +192,16 @@ header {
 
 .slider {
   height: 100vh;
-  background-image: url("../img/slider1.png");
+  background-image: url("../img/slider1.jpg");
   background-size: cover;
   background-position: 50%;
   z-index: -1; }
   .slider .slider-body {
     padding-top: 50%; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 320px) {
       .slider .slider-body {
         padding-top: 30%; } }
-    @media screend and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       .slider .slider-body {
         padding-top: 25%; } }
 
@@ -348,7 +348,7 @@ header {
   text-transform: uppercase; }
 
 #footer {
-  background: url("../img/footer-bg.png");
+  background: url("../img/footer-bg.jpg");
   background-position: 50%;
   background-size: cover;
   min-height: 20rem; }
@@ -434,11 +434,41 @@ header {
   background: #B49651;
   color: #FFF; }
 
-#spa, #restaurant {
+#wellness, #restaurant {
   background: #070707; }
-  #spa h3, #restaurant h3 {
+  #wellness h3, #restaurant h3 {
     font-weight: 700;
     color: #B49651;
     font-size: 2rem; }
-  #spa h4, #restaurant h4 {
+  #wellness h4, #restaurant h4 {
     color: #B49651; }
+
+.spa-card {
+  margin: 1rem auto;
+  width: 90%;
+  background: url("/wwwroot/build/img/villa-amistad.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 450px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  @media screen and (min-width: 768px) {
+    .spa-card {
+      width: 90%;
+      min-height: 550px; } }
+  .spa-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-top: 0rem;
+    margin-bottom: 2rem; }
+
+.spa-card .inner-card {
+  width: 85%;
+  margin: 0 auto;
+  min-height: 300px; }
+  @media screen and (min-width: 768px) {
+    .spa-card .inner-card {
+      min-height: 400px; } }
+  .spa-card .inner-card ul {
+    padding: .5rem; }
+    .spa-card .inner-card ul li {
+      color: #FFF; }

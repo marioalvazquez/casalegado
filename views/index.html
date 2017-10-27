@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Legado - Hotel Boutique Spa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="/wwwroot/build/css/index.css">
@@ -482,7 +483,7 @@
 </div>
       </div>
     </div>
-    <div class="container-fluid" id="spa">
+    <div class="container-fluid" id="wellness">
       <div class="row">
         <div class="col-sm-12">
           <h2 class="title-1">spa tesoro de agua</h2>
@@ -514,36 +515,74 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="wellness">
+    <div class="container-fluid" id="spa">
       <div class="row">
         <div class="col-sm-12">
-          <h2 class="title-1">centro de bienestar</h2>
+          <h2 class="title-1">spa tesoro de agua</h2>
+          <p class="text-center">Es tiempo de consentirte con un tesoro de técnicas para la relajación y tranquilidad de tu cuerpo.</p>
         </div>
       </div>
-      <div class="row slick-villages">
+      <div class="row slick-spa">
           <div>
-          <div class="col-sm-8 col-sm-push-2 v-card-2">
-            <div class="col-sm-6 villas-2" style="padding-right:0">
-            </div>
-            <div class="col-sm-6">
-              <h3>aroma-terapia gotas de lluvia</h3>
-              <h4>6 personas</h4>
-              <p>ritual de bienvenida</p>
-              <p>Cocktail de fruta y bebida</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="col-sm-8 col-sm-push-2 v-card-2">
-            <div class="col-sm-6 villas-1 col-lg-push-6" style="padding-right:0">
-            </div>
-            <div class="col-sm-6 col-lg-pull-6">
-              <h3>envoltura corporal de chocolate</h3>
-              <h4>ritual de bienvenida</h4>
-              <p>1 hora de alberca de hidromasaje</p>
+            <div class="spa-card">
+              <div class="col-sm-12">
+                <h3 class="text-center white-color">aroma-terapia<br/> gotas de lluvia</h3>
+                <div class="white-bg inner-card">
+                  <ul>
+                    <li>Ritual de Bienvenida</li>
+                    <li>Cocktail de Fruta y Bebida</li>
+                    <li>1 hora en Alberca de Hidromasaje</li>
+                  </ul>
+                  <a href="" class="more-spa">Ver Más</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          <div>
+            <div class="spa-card">
+              <div class="col-sm-12">
+                <h3 class="text-center white-color">aroma-terapia<br/> gotas de lluvia</h3>
+                <div class="white-bg inner-card">
+                  <ul>
+                    <li>Ritual de Bienvenida</li>
+                    <li>Cocktail de Fruta y Bebida</li>
+                    <li>1 hora en Alberca de Hidromasaje</li>
+                  </ul>
+                  <a href="" class="more-spa">Ver Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="spa-card">
+              <div class="col-sm-12">
+                <h3 class="text-center white-color">aroma-terapia<br/> gotas de lluvia</h3>
+                <div class="white-bg inner-card">
+                  <ul>
+                    <li>Ritual de Bienvenida</li>
+                    <li>Cocktail de Fruta y Bebida</li>
+                    <li>1 hora en Alberca de Hidromasaje</li>
+                  </ul>
+                  <a href="" class="more-spa">Ver Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="spa-card">
+              hola
+            </div>
+          </div>
+          <div>
+            <div class="spa-card">
+              hola
+            </div>
+          </div>
+          <div>
+            <div class="spa-card">
+              hola
+            </div>
+          </div>
       </div>
     </div>
     <div class="container-fluid" id="restaurant">
@@ -645,7 +684,38 @@
   <script src="/wwwroot/build/js/index.js" charset="utf-8"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.slick-villages').slick();
+      $('.slick-villages').slick({
+        dots: true,
+        infinite: true,
+        speed: 300
+      });
+      $('.slick-spa').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
       $('.amenities-carousel').slick({
   dots: true,
   infinite: true,
