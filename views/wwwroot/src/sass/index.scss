@@ -59,6 +59,9 @@ background: $gray;
   box-sizing: border-box;
   letter-spacing: 2px;
 }
+img[alt="Casa Legado"]{
+  cursor: pointer;
+}
 //icons
 .arrow{
   padding: .5rem;
@@ -574,9 +577,15 @@ p{
 .spa-img{
 }
 .spa-card .inner-card{
+  border: 2px solid $white;
+  position: relative;
   width: 85%;
-  margin: 0 auto;
+  margin: 5rem auto;
   min-height: 300px;
+  transition: .1s all ease-in;
+  &:hover{
+    background: rgba(180,150,81,0.7);
+  }
   @media screen and(min-width: 768px){
     min-height: 400px;
   }
@@ -584,6 +593,29 @@ p{
     padding: .5rem;
     li{
       color: $white;
+      text-align: center;
+      margin: 1rem 0;
+      letter-spacing: 1px;
     }
+  }
+}
+
+.more-spa{
+  text-align: center;
+  background: $white;
+  padding: 1rem 0;
+}
+.more-spa-a{
+  color: $gold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 20ms all ease-in;
+  &:hover{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: $gold;
+    text-decoration: none;
   }
 }

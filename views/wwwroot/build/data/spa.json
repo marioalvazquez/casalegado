@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "name": "Aroma-Terapia Gotas de Lluvia",
+    "details": [
+      "hola",
+      "hola",
+      "hola"
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$2,000.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Envoltura Corporal de Chocolate",
+    "details": [
+      "Los beneficios del cacao en nuestro organismo generan una liberación de endorfina provocando un efecto estimulante de cada uno de nuestros sentidos, generando una sensación de bienestar, alegría y placer.",
+      "Relájese y déjese consentir con la aplicación de una envoltura de chocolate en todo su cuerpo.",
+      "A base de una deliciosa mezcla de aceite y cacao logrará lucir una piel saludable y radiante, cerrando con broche de oro se acompaña con un facial hidratante y una degustación de un chocolate amargo de calidad."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$2,010.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vino-Terapia",
+    "details": [
+      "Déjate cautivar por lo beneficios antioxidantes naturales del Vino, acompañado de un delicioso ritual a base de una exfoliación con pepita de uva, tonificante y posteriormente un masaje relajante con deliciosas esencias que te harán entrar en una sintonía única contigo mismo.",
+      "Finalizando así con un baño de tina en vino merlot y sales, acompañado de una copa de tinto para disfrutar de todos los beneficios que nos brinda la vida."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Copa de Vino",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$2,800.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Masaje Relajante",
+    "details": [
+      "Este es un masaje suave que mejora la circulación concentrada en los músculos para mejorar el malestar y la tensión causadas por el estrés de las actividades diarias.",
+      "Este masaje combina el sentido del olfato utilizando aceites esenciales para potencializar el estado de relajación del sistema nervioso."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,050.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Masaje Moldeante",
+    "details": [
+      "Ideal para reducir notablemente flacidez y celulitis mejorando la apariencia y elasticidad de la piel dejándola más bella y saludable.",
+      "Con ayuda de la aparatología de vanguardia brindando efectividad comprobada para esterilizar tu figura al reducir grasa acumulada en áreas específicas como abdomen, caderas, brazos y espalda.",
+      "Eliminando esta grasa de tu cuerpo de manera natural."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,054.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Masaje de Tejido Profundo",
+    "details": [
+      "Masaje para los aficionados al deporte que constantemente sufren de dólares musculares, ayuda a relajar el musculo tenso.",
+      "Recomendado tanto para antes o después de un día de trabajo."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,195.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Masaje de Bambú",
+    "details": [
+      "Déjate cautivar por está técnica de origen oriental relajante y renovadora de energía.",
+      "Los movimientos del bambú sobre la piel producen un efecto sedante en las terminales nerviosas brindando esa sensación placentera y vigorizante.",
+      "Gracias a esta técnica a tejido más profundo ayuda a liberar tensión acumulada con el paso del tiempo, contribuye a reducir celulitis por su acción linfo drenante y relajar los músculos para los amantes del deporte."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,195.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Masaje Holístico",
+    "details": [
+      "Disfruta de un masaje holístico tomando en cuenta la unidad que es el ser humano compuesto por cuerpo físico, mente y espíritu con emociones, mediante una combinación de técnicas de masaje como acupresión, reflexología, tejido profundo y estiramientos.",
+      "Mejorando la circulación, liberando toxinas y disminuyendo dolores musculares logrando así una satisfacción completa."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,575.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Terapia de Pindas",
+    "details": [
+      "Terapia de origen Hindú procedente de la medicina ayúrvedica que combina calor, masaje y mezclas herbales que ayudan a desvanecer la tensión, el dolor muscular, inflamaciones, además de estimular la circulación sanguínea y linfática a través de suaves movimientos con una compresa caliente ayudando así también a la exfoliación y desintoxicación para la piel, causando además profunda relajación de cuerpo y mente reduciendo así el estrés causado en la vida diaria."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,575.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Masaje Prenatal",
+    "details": [
+      "Ideal para esas futuras mamás que buscan ese delicioso mimo por medio de un delicado masaje relajante enfocado en esas áreas de molestias comunes en la gestación, ayudando a combatir el dolor de piernas y espalda, suavizar la piel para prevenir la aparición de estrías, contribuir a una menor retención de líquidos y estimular la circulación brindando una maravillosa experiencia en esta etapa tan importante para cada mujer."
+    ],
+    "includes": [
+      "Incluye Ritual de Bienvenida",
+      "Cocktail de Fruta y Bebida",
+      "1 hora en Alberca de Hidromasaje"
+    ],
+    "price": "$1,195.00",
+    "mainPic": "this.jpg",
+    "galleryPic": [
+      "this1.jpg",
+      "this2.jpg",
+      "this3.jpg"
+    ]
+  }
+]

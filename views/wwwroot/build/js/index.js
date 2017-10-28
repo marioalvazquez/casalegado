@@ -1,6 +1,7 @@
 $(document).ready(() => {
   hideMenu();
   showMenu();
+  goHome();
   setCurrentDate();
   $('.menu-mobile a').on('click', () => {
     $('.menu-mobile').fadeOut();
@@ -47,7 +48,7 @@ $('a.scroll')
     });
 
 
-//simulated-main-slider
+    //simulated-main-slider
 
 $('.arrow').on('click', function(){
   var position = Math.floor((Math.random() * 4) + 1);
@@ -57,9 +58,8 @@ $('.arrow').on('click', function(){
         $(this)
             .css({'background-image': `url(wwwroot/build/img/${img}.jpg)`})
             .animate({opacity: 1});
-    });
+        });
 });
-
 
 //show n' hide mobile menu-mobile
 function hideMenu() {
@@ -82,4 +82,11 @@ function showMenu() {
 
 function setCurrentDate() {
   var current = new Date();
+}
+
+// go to Main Page
+function goHome(){
+  $('img[alt="Casa Legado"]').on('click', function(){
+    window.location.href = "/";
+  });
 }
