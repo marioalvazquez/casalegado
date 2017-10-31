@@ -47,7 +47,11 @@
     "extras": [
       "WC y regadera",
       "Sala con sofá cama King size"
-    ]
+    ],
+    "gallery":{
+      "path": "respeto",
+      "images": 16
+    }
   },
   {
     "id": 3,
@@ -70,7 +74,11 @@
     "extras": [
       "Chimenea y terraza",
       "Sala con sofá cama Queen size, WC y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "autenticidad",
+      "images": 10
+    }
   },
   {
     "id": 4,
@@ -93,7 +101,11 @@
     "extras": [
       "Chimenea y terraza",
       "Sala con sofá cama Queen size, WC y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "serenidad",
+      "images": 12
+    }
   },
   {
     "id": 5,
@@ -116,7 +128,11 @@
     "extras": [
       "Sala, comedor, área de bar y terraza",
       "Chimenea, WC y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "honestidad",
+      "images": 14
+    }
   },
   {
     "id": 6,
@@ -138,7 +154,11 @@
     },
     "extras": [
       "Sala, chimenea, tina, wc y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "coherencia",
+      "images": 11
+    }
   },
   {
     "id": 7,
@@ -160,7 +180,11 @@
     },
     "extras": [
       "Sala, chimenea, tina, wc y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "decencia",
+      "images": 9
+    }
   },
   {
     "id": 8,
@@ -182,7 +206,11 @@
     },
     "extras": [
       "Sala, chimenea, tina, wc y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "compasion",
+      "images": 12
+    }
   },
   {
     "id": 9,
@@ -204,7 +232,11 @@
     },
     "extras": [
       "Sala, chimenea, tina, wc y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "docilidad",
+      "images": 9
+    }
   },
   {
     "id": 10,

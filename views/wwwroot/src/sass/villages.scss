@@ -78,7 +78,11 @@ $bp-xl:1900px;
     left: 0;
     display: none;
     transition: .5s all ease-in;
+    color: white;
     &:hover{
       display: block;
     }
+}
+.pic-card{
+  position: relative;
 }
