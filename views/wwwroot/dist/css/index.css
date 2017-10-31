@@ -45,6 +45,9 @@ li {
 img[alt="Casa Legado"] {
   cursor: pointer; }
 
+.no-padding {
+  padding: 0; }
+
 .arrow {
   padding: .5rem;
   font-size: 1.5rem;

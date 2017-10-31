@@ -47,3 +47,15 @@
       text-decoration: none;
       font-style: italic;
       color: #B49651; }
+
+.img-bg {
+  position: absolute;
+  background: rgba(1, 1, 1, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  transition: .5s all ease-in; }
+  .img-bg:hover {
+    display: block; }

@@ -20,7 +20,11 @@
     "extras": [
       "Sala con sofá cama King size",
       "1/2 baño, terraza y chimenea"
-    ]
+    ],
+    "gallery":{
+      "path": "amistad",
+      "images": 15
+    }
   },
   {
     "id": 2,
