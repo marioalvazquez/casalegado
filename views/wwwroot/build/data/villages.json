@@ -258,7 +258,11 @@
     },
     "extras": [
       "Sala, chimenea, tina, wc y regadera"
-    ]
+    ],
+    "gallery":{
+      "path": "voluntad",
+      "images": 11
+    }
   },
   {
     "id": 11,
@@ -280,7 +284,11 @@
     },
     "extras": [
       "sala, WC, regadera, chimenea y terraza"
-    ]
+    ],
+    "gallery":{
+      "path": "alegria",
+      "images": 15
+    }
   },
   {
     "id": 12,
@@ -303,7 +311,11 @@
     "extras": [
       "WC y regadera",
       "Sala, chimenea y terraza"
-    ]
+    ],
+    "gallery":{
+      "path": "sencillez",
+      "images": 14
+    }
   }
 
 ]
