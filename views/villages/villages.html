@@ -161,11 +161,6 @@
     <script src="/wwwroot/build/js/photoswipe.min.js" charset="utf-8"></script>
     <script src="/wwwroot/build/js/photoswipe-ui-default.min.js" charset="utf-8"></script>
     <script type="text/javascript">
-    $(document).ready(function () {
-      $('.show-gallery-in').on('click', function(ev){
-          openGallery($($(this)[0]).attr('data-pic'));
-      });
-    });
       var idVillage = window.location.search.substring(1).split("=")[1];
       console.log(idVillage);
       var result = [];
@@ -276,6 +271,9 @@
     }
     document.getElementById('btnGallery').onclick = openGallery;
 
+    $(document).on('click','.show-gallery-in',function(e){
+      openGallery($($(this)[0]).attr('data-pic'));
+    });
     </script>
   </body>
 </html>
