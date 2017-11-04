@@ -527,3 +527,20 @@ header {
   color: #b39556;
   border-top: 1px solid #b39556;
   border-bottom: 1px solid #b39556; }
+
+.modal-gold {
+  background: rgba(180, 150, 81, 0.6);
+  color: #FFF !important;
+  border-radius: 0px; }
+  .modal-gold .close {
+    color: #FFF; }
+
+.btn-white {
+  padding: .5rem 2rem;
+  border: none;
+  background: none;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  color: #FFF;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF; }

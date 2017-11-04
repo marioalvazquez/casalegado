@@ -759,6 +759,26 @@
         </div>
       </div>
     </div>
+    <!-- Modal for mail status -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-gold">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">Envío de mensaje</h4>
+      </div>
+      <div class="modal-body text-center">
+        <div>
+          <img src="/wwwroot/build/img/Eclipse.svg" alt="Cargando..." style="width:150px">
+        </div>
+        <p>Enviando mensaje...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-white" style="display:none" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container-fluid" id="footer">
       <div class="container">
         <div class="row">
@@ -895,7 +915,8 @@
 });
     });
     $('#sendMail').submit(function(event){
-      alert("Hello world");
+      var result = "";
+      $("#myModal").modal('show');
       var info = $(this).serializeArray();
       console.log($(this).serializeArray()[0].value);
       emailjs.send("smtp_server", "new_message", {
@@ -906,11 +927,22 @@
       })
       .then(function(response){
         console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        result = "Mensaje enviado correctamente";
+        modalMessage(result);
+        document.getElementById('sendMail').reset();
       }, function(err){
+        result = "Algo salió mal, intente más tarde";
+        modalMessage(result);
         console.log("FAILED. error=", err);
       });
       event.preventDefault();
     });
+
+    function modalMessage(message) {
+      $('.modal-body img').fadeOut();
+      $('.modal-body').text(message);
+      $('#myModal').find('button').fadeIn();
+    }
   </script>
   </body>
 </html>
