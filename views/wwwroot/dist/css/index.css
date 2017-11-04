@@ -504,3 +504,26 @@ header {
     letter-spacing: 2px;
     color: #B49651;
     text-decoration: none; }
+
+.fc-legado {
+  border: none;
+  border-top: 1px solid #B49651;
+  border-bottom: 1px solid #B49651;
+  border-radius: 0px !important;
+  box-shadow: none; }
+
+.fc-legado:focus {
+  border-color: #b39556;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(179, 149, 86, 0.6); }
+
+.btn-send {
+  padding: .5rem 2rem;
+  border: none;
+  background: none;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  color: #b39556;
+  border-top: 1px solid #b39556;
+  border-bottom: 1px solid #b39556; }

@@ -92,5 +92,4 @@ button#btnGallery {
   transition: .1s all ease-in; }
   button#btnGallery:hover {
     border-left: 1px solid #B49651;
-    border-right: 1px solid #B49651;
-    border-width: 2px; }
+    border-right: 1px solid #B49651; }

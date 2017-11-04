@@ -66,6 +66,7 @@ img[alt="Casa Legado"]{
 .no-padding{
   padding: 0;
 }
+
 //icons
 .arrow{
   padding: .5rem;
@@ -622,4 +623,30 @@ p{
     color: $gold;
     text-decoration: none;
   }
+}
+
+//message
+.fc-legado{
+  border: none;
+  border-top: 1px solid $gold;
+  border-bottom: 1px solid $gold;
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+.fc-legado:focus {
+    border-color: rgb(179, 149, 86);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(179,149,86,.6);
+}
+
+.btn-send{
+  padding: .5rem 2rem;
+    border: none;
+    background: none;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: #b39556;
+    border-top: 1px solid #b39556;
+    border-bottom: 1px solid #b39556;
 }
