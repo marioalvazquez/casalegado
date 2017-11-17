@@ -30,6 +30,9 @@ a{
 li{
   list-style: none;
 }
+.no-padding{
+  padding: 0 !important;
+}
 .white-color{
   color: $white;
 }
@@ -669,4 +672,35 @@ p{
     color: $white;
     border-top: 1px solid $white;
     border-bottom: 1px solid $white;
+}
+
+.price-card{
+  background: $gold;
+  color: $white;
+  padding: 2rem;
+  margin: 2rem;
+  span{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+.reservation-card{
+  border: 3px solid $gold;
+  padding: 2rem;
+  margin: 2rem;
+  color: $gold;
+  span{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    a{
+      text-decoration: none;
+      font-style: italic;
+      color: $gold;
+    }
+  }
 }
