@@ -28,7 +28,7 @@
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <p>Incluye:</p>
-          <ul>
+          <ul id="includes">
 
           </ul>
           <div class="col-sm-6">
@@ -56,7 +56,7 @@
         $('title').text(`${result.name} - Casa Legado`);
         $('h1').text(result.name);
         result.includes.forEach(el => {
-          $('ul').append(`<li>${el}</li>`);
+          $('#includes').append(`<li>${el}</li>`);
         });
         $('img').attr('alt', result.name);
         $('.left-img').css({
