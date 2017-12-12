@@ -241,6 +241,7 @@ header {
       letter-spacing: 5px;
       padding: 1rem; } }
   .slider-btn a {
+    outline: none;
     color: #FFF;
     text-decoration: none;
     border: 0.1rem solid #FFF;

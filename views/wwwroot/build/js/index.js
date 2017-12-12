@@ -51,7 +51,7 @@ $('a.scroll')
 
     //simulated-main-slider
 function changeSlide(){
-  var position = Math.floor((Math.random() * 4) + 1);
+  var position = Math.floor((Math.random() * 5) + 1);
   var img = `slider${position}`;
   $('.slider')
     .animate({opacity: 0.25}, 200, function() {
