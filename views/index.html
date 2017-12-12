@@ -22,7 +22,7 @@
       <div class="container-fluid">
         <div class="row" style="padding-top:.5rem;">
           <div class="col-xs-6 col-sm-6 col-md-2 text-left">
-            <img src="/wwwroot/build/img/logo-header.png" alt="Casa Legado" class="logo-header">
+            <img src="/wwwroot/build/img/logo-new.png" alt="Casa Legado" class="logo-header">
             <img src="/wwwroot/build/img/logo-mobile.png" alt="Casa Legado" class="logo-mobile">
           </div>
           <div class="col-xs-6 col-sm-6 col-md-8 text-right menu-mobile-open">
@@ -35,22 +35,18 @@
               <li>
                 <a href="#spa" class="scroll">Spa</a></li>
               <li>
-                <a href="#restaurant" class="scroll">Restaurant</a></li>
-              <li>
                 <a href="#wellness" class="scroll">Centro de Bienestar</a></li>
+              <li>
+                <a href="#restaurant" class="scroll">Restaurante</a></li>
               <li>
                 <a href="#business" class="scroll">Centro de Negocios</a>
               </li>
               <li>
-                <a href="#social" class="scroll">Eventos Sociales</a>
+                <a href="#social" class="scroll">centro de convenciones</a>
               </li>
             </ul>
-            <div id="booking" class="badge-menu">
-              <p>Reserva Ahora</p>
-            </div>
-            <div id="exclusive" class="badge-menu">
-              <p>Legados Exclusivos</p>
-            </div>
+            <img src="/wwwroot/build/img/exclusive.png" alt="Experiencias exclusivas" id="exclusive">
+            <img src="/wwwroot/build/img/book-now.png" alt="Reserva ahora" id="booking">
           </div>
         </div>
       </div>
@@ -71,14 +67,14 @@
                 <li>
                   <a href="#spa" class="scroll">Spa</a></li>
                 <li>
-                  <a href="#restaurant" class="scroll">Restaurant</a></li>
-                <li>
                   <a href="#wellness" class="scroll">Centro de Bienestar</a></li>
+                <li>
+                  <a href="#restaurant" class="scroll">Restaurante</a></li>
                 <li>
                   <a href="#business" class="scroll">Centro de Negocios</a>
                 </li>
                 <li>
-                  <a href="#social" class="scroll">Eventos Sociales</a>
+                  <a href="#social" class="scroll">Centro de convenciones</a>
                 </li>
               </ul>
             </div>
@@ -93,6 +89,9 @@
             <h1 class="slider-title">casa legado</h1>
             <p class="slider-subtitle">todo legado tiene su tesoro</p>
             <p class="slider-btn">
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#videoModal">
+                descubre la magia de casa legado
+              </button>
               <a href="#">descubre la magia de casa legado</a>
             </p>
             <p style="margin-top:2rem">
@@ -264,7 +263,7 @@
           <div>
             <div class="amenities-card">
               <img src="wwwroot/build/img/restaurant-cl.svg"/>
-              <p class="card-title">restaurant</p>
+              <p class="card-title">Restaurante</p>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -783,7 +782,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <img src="wwwroot/build/img/logo-header.png"/>
+            <img src="wwwroot/build/img/logo-new.png"/>
           </div>
           <div class="col-sm-3">
             <ul class="contact-list">
@@ -839,6 +838,16 @@
         </div>
     </div>
 
+    <!-- Modal for video -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KKdMJaTrm4c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

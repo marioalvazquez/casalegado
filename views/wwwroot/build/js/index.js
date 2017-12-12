@@ -9,6 +9,7 @@ $(document).ready(() => {
     $('.slider-body').fadeIn();
     $('header').show();
   });
+  setInterval('changeSlide()', 4000);
 });
 
 //smooth scroll
@@ -49,7 +50,16 @@ $('a.scroll')
 
 
     //simulated-main-slider
-
+function changeSlide(){
+  var position = Math.floor((Math.random() * 4) + 1);
+  var img = `slider${position}`;
+  $('.slider')
+    .animate({opacity: 0.25}, 200, function() {
+        $(this)
+            .css({'background-image': `url(wwwroot/build/img/${img}.jpg)`})
+            .animate({opacity: 1});
+        });
+}
 $('.arrow').on('click', function(){
   var position = Math.floor((Math.random() * 4) + 1);
   var img = `slider${position}`;

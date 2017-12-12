@@ -97,7 +97,7 @@ header {
 
 .logo-header {
   display: none;
-  max-width: 215px; }
+  max-width: 120px; }
   @media screen and (min-width: 460px) {
     .logo-header {
       display: block; } }
@@ -152,7 +152,8 @@ header {
   border-bottom: 1px solid #B49651; }
   .menu-desktop ul {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    position: relative; }
     .menu-desktop ul li {
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -189,15 +190,15 @@ header {
 
 #booking {
   top: 51px !important;
-  right: 10px !important; }
-  #booking p {
-    left: -27px; }
+  right: 10px !important;
+  position: absolute;
+  max-width: 100px; }
 
 #exclusive {
+  position: absolute;
   top: 51px !important;
-  right: 130px !important; }
-  #exclusive p {
-    left: -34px !important; }
+  right: 130px !important;
+  max-width: 100px; }
 
 .slider {
   height: 100vh;
