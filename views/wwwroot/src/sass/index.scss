@@ -124,7 +124,7 @@ header {
 
 .logo-header{
   display: none;
-  max-width: 120px;
+  max-width: 150px;
   @media screen and (min-width: $bp-s){
     display: block;
   }
@@ -231,14 +231,14 @@ p{
 }
 }
 #booking{
-  top: 51px !important;
+  top: 60px !important;
   right: 10px !important;
   position: absolute;
   max-width: 100px;
 }
 #exclusive{
   position: absolute;
-  top: 51px !important;
+  top: 60px !important;
   right: 130px !important;
   max-width: 100px;
 }
@@ -679,7 +679,7 @@ p{
   }
 }
 
-.btn-white{
+a.btn-white, .btn-white{
   padding: .5rem 2rem;
     border: none;
     background: none;
