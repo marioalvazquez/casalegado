@@ -187,7 +187,6 @@ header {
 .menu-desktop{
   position: relative;
   display: none;
-  border-bottom: 1px solid $gold;
   ul{
     display: flex;
     justify-content: space-around;
@@ -368,6 +367,22 @@ p{
 }
 
 //villages
+
+.slick-villages-first{
+  .slick-prev{
+    left: 20px !important;
+    &::before{
+      color: $gold;
+    }
+  }
+  .slick-next{
+    right: 20px !important;
+    &::before{
+      color: $gold;
+    }
+  }
+}
+
 .villages-img{
   min-height: 400px;
   background-size: cover;
@@ -419,6 +434,7 @@ p{
   padding: 1rem;
   border: 1px solid $gold;
   text-align: center;
+  min-height: 250px;
   img{
     margin: 0 auto;
     max-width: 80px;

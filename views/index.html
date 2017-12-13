@@ -20,9 +20,9 @@
   <body>
     <header>
       <div class="container-fluid">
-        <div class="row" style="padding-top:.5rem;">
+        <div class="row" style="padding-top:.5rem; border-bottom:1px solid #B49651;">
           <div class="col-xs-6 col-sm-6 col-md-2 text-left">
-            <img src="/wwwroot/build/img/logo-new.png" alt="Casa Legado" class="logo-header">
+            <img src="/wwwroot/build/img/header-cl.png" alt="Casa Legado" class="logo-header">
             <img src="/wwwroot/build/img/logo-mobile.png" alt="Casa Legado" class="logo-mobile">
           </div>
           <div class="col-xs-6 col-sm-6 col-md-8 text-right menu-mobile-open">
@@ -98,11 +98,11 @@
       </div>
     </div>
     <div class="container-fluid" id="intro">
-      <div class="container">
+      <div class="container" style="padding: 2rem 0 6rem 0;">
       <div class="row">
         <div class="col-sm-12 text-center intro-titles">
           <h2 class="title">casa legado spa resort</h2>
-          <h3 class="gold-color">LUJO EXCLUSIVIDAD PERSONALIZACIÓN PARA UNA ESTANCIA CON EXPERIENCIAS INIGUALABLES</h3>
+          <h3 class="gold-color">LUJO, EXCLUSIVIDAD Y PERSONALIZACIÓN PARA UNA ESTANCIA CON EXPERIENCIAS INIGUALABLES</h3>
         </div>
         <div class="col-sm-12">
           <p class="paragraph">
@@ -300,13 +300,13 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="suites">
+    <div class="container-fluid" id="suites" style="padding: 5rem 0;">
       <div class="row">
         <div class="col-sm-12">
           <h2 class="title-1">villas de lujo</h2>
         </div>
       </div>
-      <div class="row slick-villages">
+      <div class="row slick-villages-first">
           <div>
           <div class="col-sm-8 col-sm-push-2 v-card-2">
             <div class="col-sm-6 villas-2" style="padding-right:0">
@@ -771,7 +771,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <img src="wwwroot/build/img/logo-new.png"/>
+            <img src="wwwroot/build/img/header-cl.png"/>
           </div>
           <div class="col-sm-3">
             <ul class="contact-list">
@@ -844,10 +844,8 @@
   <script src="/wwwroot/build/js/index.js" charset="utf-8"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.slick-villages').slick({
-        dots: true,
-        infinite: true,
-        speed: 300
+      $('.slick-villages-first').slick({
+        dots: true
       });
       $('.slick-spa').slick({
         dots: true,

@@ -148,8 +148,7 @@ header {
 
 .menu-desktop {
   position: relative;
-  display: none;
-  border-bottom: 1px solid #B49651; }
+  display: none; }
   .menu-desktop ul {
     display: flex;
     justify-content: space-around;
@@ -295,6 +294,16 @@ header {
   #suites .two, #wellness .two {
     background: url("../img/suites2.jpg"); }
 
+.slick-villages-first .slick-prev {
+  left: 20px !important; }
+  .slick-villages-first .slick-prev::before {
+    color: #B49651; }
+
+.slick-villages-first .slick-next {
+  right: 20px !important; }
+  .slick-villages-first .slick-next::before {
+    color: #B49651; }
+
 .villages-img {
   min-height: 400px;
   background-size: cover;
@@ -339,7 +348,8 @@ header {
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #B49651;
-  text-align: center; }
+  text-align: center;
+  min-height: 250px; }
   .amenities-card img {
     margin: 0 auto;
     max-width: 80px; }
