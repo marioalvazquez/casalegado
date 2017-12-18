@@ -10,6 +10,20 @@ $(document).ready(() => {
     $('.slider-body').fadeIn();
     $('header').show();
   });
+  $('.filter-spa-menu').on('click', function(e){
+    e.preventDefault();
+    $('.filter-spa-menu').each((i, item) => {
+      if ($(item).parent().hasClass('active')) {
+        $(item).parent().removeClass('active');
+      }
+    });
+    $(e.currentTarget).parent().addClass('active');
+    var selected = e.currentTarget.getAttribute('data-id');
+    $('#newSpa').slick('slickUnfilter');
+    $('#newSpa').slick('slickFilter', function(index){
+      return $(this).find('.spa-card-two').attr('data-spaType') == selected;
+    });
+  });
   setInterval('changeSlide()', 4000);
 });
 
@@ -24,7 +38,7 @@ function spaCards() {
     fillRituals(data);
     $('#newSpa').slick({
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -64,7 +78,6 @@ function spaCards() {
 }
 function fillRituals(rituals){
   rituals.forEach(function(item){
-    console.log(item.id);
     $('#newSpa').append(
       '<div>'+
     `<div class="spa-card-two row" data-spaType="${item.type.id}">`+

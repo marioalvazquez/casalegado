@@ -43,6 +43,11 @@ li{
     color:$gold !important;
     text-decoration: none !important;
   }
+  &:visited{
+    letter-spacing: 3px;
+    color:$gold !important;
+    text-decoration: none !important;
+  }
 }
 .big-letter{
   font-size: 2rem;

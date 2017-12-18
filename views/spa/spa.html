@@ -9,7 +9,8 @@
     <div class="spa-hero">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-8 white-color" style="padding-top:5rem;">
+            <h3></h3>
             <h1></h1>
           </div>
         </div>
@@ -21,16 +22,26 @@
         </div>
         <div class="col-sm-8">
           <h1 class="gold-color"></h1>
-          <p>
+          <p id="description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <p>Incluye:</p>
-          <ul id="includes">
-
-          </ul>
+          <div class="row">
+            <div class="col-sm-6">
+              <p>Incluye:</p>
+              <ul id="includes">
+                <li>Ritual de Bienvenida</li>
+                <li>Cocktail de Fruta y Bebida</li>
+                <li>1 hora en Alberca de Hidromasaje</li>
+              </ul>
+            </div>
+            <div class="col-sm-6 text-right">
+              <p class="quote"></p>
+              <p class="author"></p>
+            </div>
+          </div>
           <div class="col-sm-6">
             <div class="price-card text-center">
             <span>Desde: <span class="price">$1,992.00</span> MXN</span>
@@ -38,7 +49,7 @@
           </div>
           <div class="col-sm-6">
             <div class="reservation-card text-center">
-            <span>Reserva: <a href="tel:4494063400">+52 (449) 406 3400</a></span>
+            <span>Reserva: <a href="tel:+524492314115">+52 (449) 231 4115</a></span>
           </div>
           </div>
         </div>
@@ -50,17 +61,25 @@
     <script type="text/javascript">
       var idService = window.location.search
                           .substring(1).split("=")[1];
-      $.get('/wwwroot/build/data/spa.json', (data) => {
+      $.get('/wwwroot/build/data/rituals.json', (data) => {
         var result = data[idService - 1];
         console.log(result);
         $('title').text(`${result.name} - Casa Legado`);
-        $('h1').text(result.name);
-        result.includes.forEach(el => {
-          $('#includes').append(`<li>${el}</li>`);
-        });
+        $('h3').text(result.parent);
+        $('h1').text(result.longName);
+        $('#description').text(result.description);
         $('img').attr('alt', result.name);
+        if (result.quote) {
+          $('.quote').text(result.quote)
+        }
+        else{
+          $('.quote').remove();
+        }
+        if (result.author) {
+          $('.author').text(`- ${result.author}`);
+        }
         $('.left-img').css({
-          "background": `url('/wwwroot/build/img/${result.mainPic}')`,
+          "background": `url('/wwwroot/build/img/${result.picture}')`,
           "background-size": "cover",
           "background-position": "50%",
           "min-height": "500px"

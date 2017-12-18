@@ -25,6 +25,10 @@ li {
     letter-spacing: 3px;
     color: #B49651 !important;
     text-decoration: none !important; }
+  .simple-link:visited {
+    letter-spacing: 3px;
+    color: #B49651 !important;
+    text-decoration: none !important; }
 
 .big-letter {
   font-size: 2rem;

@@ -15,7 +15,7 @@ $bp-lg: 1024px;
 $bp-xl:1900px;
 
 .spa-hero{
-  min-height: 400px;
+  min-height: 250px;
   background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
 linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -26,7 +26,12 @@ linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transpar
 background-color: #131313;
 background-size: 20px 20px;
 }
-.col-lg-8 h1{
-  padding-top: 5rem;
-  color: $white;
+.quote{
+  font-style: italic;
+  &:before{
+    content: '"';
+    font-size: 2rem;
+    font-weight: bold;
+    color:$gold;
+  }
 }
