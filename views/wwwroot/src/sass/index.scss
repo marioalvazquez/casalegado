@@ -589,9 +589,27 @@ p{
   background: $gold;
   color: $white;
 }
+
+//wellness
+#wellness{
+  background: $white;
+  color: $gold;
+  h3{
+    border-bottom: 2px dotted;
+    transition: .4s all ease;
+    cursor: pointer;
+    &:hover{
+      padding-left: 1rem;
+    }
+  }
+  .active-wellness{
+    padding-left: 1rem;
+    border-left: 4px solid $gold;
+  }
+}
  //spa
 
- #wellness, #restaurant{
+#restaurant{
    background: $black;
    h3{
      font-weight: 700;
@@ -602,7 +620,9 @@ p{
      color: $gold;
    }
  }
-
+.filter-spa-menu{
+  text-transform: uppercase;
+}
 .spa-card{
   margin: 1rem auto;
   width: 90%;

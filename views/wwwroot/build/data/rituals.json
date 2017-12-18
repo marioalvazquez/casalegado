@@ -348,7 +348,8 @@
     "author": "",
     "description": "Masaje relajante para pies y piernas cansadas. Este masaje toca los puntos más sensibles, asociándolos con terminaciones nerviosas de nuestro cuerpo; finaliza con la aplicación de una crema refrescante que ayuda a mejorar la circulación y deja una sensación revitalizadora.",
     "duration": 30,
-    "picture": "rituals.jpg"
+    "picture": "rituals.jpg",
+    "price": "520.00"
   },
   {
     "id": 23,

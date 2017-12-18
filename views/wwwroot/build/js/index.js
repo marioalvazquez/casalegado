@@ -4,6 +4,7 @@ $(document).ready(() => {
   goHome();
   spaCards();
   setCurrentDate();
+  activeWellness();
   $('.menu-mobile a').on('click', () => {
     $('.menu-mobile').fadeOut();
     $('.container-fluid').fadeIn();
@@ -26,6 +27,34 @@ $(document).ready(() => {
   });
   setInterval('changeSlide()', 4000);
 });
+
+function activeWellness() {
+  var $items = $('#wellness').find('h3');
+  $items.on('click', function(e){
+    var id = e.currentTarget.getAttribute('data-wellnesMenu');
+    console.log(id);
+    var itemSelected = this;
+    $selected = $(e.currentTarget);
+    e.currentTarget.classList.add('active-wellness');
+    $selected.addClass('active-wellness');
+    $items.each((i, item) => {
+      if ($(item).text() != $(itemSelected).text()) {
+        $(item).removeClass('active-wellness');
+      }
+      else{
+        $(item).addClass('active-wellness');
+      }
+    });
+    $('.wellness-items').each((i, item) => {
+      if (item.getAttribute('data-wellnesMenu') != id) {
+        $(item).fadeOut();
+      }
+      else{
+        $(item).fadeIn();
+      }
+    });
+  });
+}
 
 //load spa items
 function spaCards() {

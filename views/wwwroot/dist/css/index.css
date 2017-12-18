@@ -476,14 +476,30 @@ header {
   background: #B49651;
   color: #FFF; }
 
-#wellness, #restaurant {
+#wellness {
+  background: #FFF;
+  color: #B49651; }
+  #wellness h3 {
+    border-bottom: 2px dotted;
+    transition: .4s all ease;
+    cursor: pointer; }
+    #wellness h3:hover {
+      padding-left: 1rem; }
+  #wellness .active-wellness {
+    padding-left: 1rem;
+    border-left: 4px solid #B49651; }
+
+#restaurant {
   background: #070707; }
-  #wellness h3, #restaurant h3 {
+  #restaurant h3 {
     font-weight: 700;
     color: #B49651;
     font-size: 2rem; }
-  #wellness h4, #restaurant h4 {
+  #restaurant h4 {
     color: #B49651; }
+
+.filter-spa-menu {
+  text-transform: uppercase; }
 
 .spa-card {
   margin: 1rem auto;
