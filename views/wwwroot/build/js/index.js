@@ -73,7 +73,7 @@ function fillRituals(rituals){
         '</div>'+
         '<div class="col-sm-12">'+
         '<div class="col-sm-6 text-center">'+
-          '<p class="spa-i spa-price"><i class="icon-attach_money"></i> 120.00 MXN</p>'+
+          `<p class="spa-i spa-price"><i class="icon-attach_money"></i> ${item.price} MXN</p>`+
         '</div>'+
         '<div class="col-sm-6 text-center">'+
           `<p class="spa-i spa-time"><i class="icon-watch_later"></i>${item.duration} minutos</p>`+
