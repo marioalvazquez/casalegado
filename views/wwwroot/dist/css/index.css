@@ -14,6 +14,23 @@ a {
 li {
   list-style: none; }
 
+.active {
+  font-weight: bold; }
+
+.simple-link {
+  color: #B49651;
+  letter-spacing: 2px;
+  transition: .2s all ease; }
+  .simple-link:hover {
+    letter-spacing: 3px;
+    color: #B49651 !important;
+    text-decoration: none !important; }
+
+.big-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #B49651; }
+
 .no-padding {
   padding: 0 !important; }
 
@@ -467,37 +484,72 @@ header {
 .spa-card {
   margin: 1rem auto;
   width: 90%;
-  background: url("/wwwroot/build/img/villa-amistad.jpg");
   background-size: cover;
   background-position: 50%;
-  min-height: 450px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   @media screen and (min-width: 768px) {
     .spa-card {
-      width: 90%;
-      min-height: 550px; } }
+      width: 90%; } }
   .spa-card:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     margin-top: 0rem;
     margin-bottom: 2rem; }
 
+.spa-menu {
+  background: transparent; }
+
+#newSpa .slick-prev:before {
+  color: #B49651; }
+
+#newSpa .slick-next:before {
+  color: #B49651; }
+
+.spa-card-two {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #B49651;
+  margin: 1rem;
+  height: 300px !important;
+  padding-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: .2s all ease-in; }
+  @media screen and (min-width: 768px) {
+    .spa-card-two {
+      height: 200px !important; } }
+  .spa-card-two:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 2rem;
+    cursor: pointer; }
+  .spa-card-two h2 {
+    color: #070707; }
+
+.spa-i {
+  color: #B49651;
+  font-size: 1rem;
+  letter-spacing: 2px; }
+
 .spa-card .inner-card {
   border: 2px solid #FFF;
   position: relative;
-  width: 85%;
-  margin: 5rem auto;
+  width: 100%;
+  margin: 0 auto;
   min-height: 300px;
-  transition: .1s all ease-in; }
+  transition: .1s all ease-in;
+  border: 1px solid #B49651;
+  color: #B49651; }
   .spa-card .inner-card:hover {
-    background: rgba(180, 150, 81, 0.7); }
+    color: #FFF; }
   @media screen and (min-width: 768px) {
     .spa-card .inner-card {
       min-height: 400px; } }
   .spa-card .inner-card ul {
     padding: .5rem; }
     .spa-card .inner-card ul li {
-      color: #FFF;
+      color: #B49651;
       text-align: center;
       margin: 1rem 0;
       letter-spacing: 1px; }

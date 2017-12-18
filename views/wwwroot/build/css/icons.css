@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?ka1k4f');
-  src:  url('../fonts/icomoon.eot?ka1k4f#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ka1k4f') format('truetype'),
-    url('../fonts/icomoon.woff?ka1k4f') format('woff'),
-    url('../fonts/icomoon.svg?ka1k4f#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?7c0ptf');
+  src:  url('../fonts/icomoon.eot?7c0ptf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7c0ptf') format('truetype'),
+    url('../fonts/icomoon.woff?7c0ptf') format('woff'),
+    url('../fonts/icomoon.svg?7c0ptf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -709,6 +709,9 @@
 .icon-add_a_photo:before {
   content: "\e439";
 }
+.icon-attach_money:before {
+  content: "\e227";
+}
 .icon-phone:before {
   content: "\e0cd";
 }
@@ -744,6 +747,9 @@
 }
 .icon-pool:before {
   content: "\eb48";
+}
+.icon-watch_later:before {
+  content: "\e924";
 }
 .icon-facebook:before {
   content: "\ea90";

@@ -2,6 +2,7 @@ $(document).ready(() => {
   hideMenu();
   showMenu();
   goHome();
+  spaCards();
   setCurrentDate();
   $('.menu-mobile a').on('click', () => {
     $('.menu-mobile').fadeOut();
@@ -11,6 +12,81 @@ $(document).ready(() => {
   });
   setInterval('changeSlide()', 4000);
 });
+
+//load spa items
+function spaCards() {
+  $.ajax({
+    method: "GET",
+    url: "/wwwroot/build/data/rituals.json",
+    dataType: "json"
+  })
+  .done(function(data){
+    fillRituals(data);
+    $('#newSpa').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  })
+  .fail(function(data){
+    alert("Algo salió mal");
+  });
+}
+function fillRituals(rituals){
+  rituals.forEach(function(item){
+    console.log(item.id);
+    $('#newSpa').append(
+      '<div>'+
+    `<div class="spa-card-two row" data-spaType="${item.type.id}">`+
+        '<div class="col-sm-12">'+
+          `<h2 class="color-gold spa-title">${item.longName}</h2>`+
+        '</div>'+
+        '<div class="col-sm-12">'+
+        '<div class="col-sm-6 text-center">'+
+          '<p class="spa-i spa-price"><i class="icon-attach_money"></i> 120.00 MXN</p>'+
+        '</div>'+
+        '<div class="col-sm-6 text-center">'+
+          `<p class="spa-i spa-time"><i class="icon-watch_later"></i>${item.duration} minutos</p>`+
+        '</div>'+
+        '</div>'+
+        '<div class="col-sm-12 text-center">'+
+          `<a href="/spa/spa.html?id=${item.id}" class="cl-btn">ver más</a>`+
+          '</div>'+
+        '</div>'+
+      '</div>'
+    );
+  });
+}
 
 //smooth scroll
 //Smooth scroll

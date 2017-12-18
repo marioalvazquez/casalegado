@@ -1,6 +1,10 @@
 [
   {
     "id": 1,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Saucillo",
     "longName": "Ritual Saucillo Oriental",
@@ -12,6 +16,10 @@
   },
   {
     "id": 2,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "San Lorenzo",
     "longName": "Ritual Regenerativo San Lorenzo",
@@ -23,6 +31,10 @@
   },
   {
     "id": 3,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Arquitos",
     "longName": "Ritual Arquitos Bajo la Lluvia",
@@ -34,9 +46,13 @@
   },
   {
     "id": 4,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Manantiales",
-    "longName": "Legado Manantiales de los 4 elemento",
+    "longName": "Legado Manantiales de los 4 elementos",
     "quote": "El manantial que emerge del poder del amor hace que la gloria de ese amor se siga incrementando en cada respiración",
     "author": "Mikao Usui",
     "description": "Déjese llevar y obtenga una fusión de todos sus sentidos, a través de una técnica de masaje con saquitos herbales que nos bridan relajación a nivel muscular y liberan de cansancio acumulado en nuestro cuerpo. Dicha técnica única nos ayudará a conectarnos con los 4 elementos fuego, tierra, aire y agua. Reflejados en velas para masaje, hierbas, aromaterapia y finalice con un delicioso baño en tina.",
@@ -45,6 +61,10 @@
   },
   {
     "id": 5,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Nueva Galicia",
     "longName": "Ritual Ancestral Nueva Galicia",
@@ -56,6 +76,10 @@
   },
   {
     "id": 6,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Ritual Antioxidante de Vino",
     "longName": "Ritual Antioxidante de Vino",
@@ -67,6 +91,10 @@
   },
   {
     "id": 7,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Ritual Legado Xocolatl",
     "longName": "Ritual Legado Xocolatl",
@@ -78,6 +106,10 @@
   },
   {
     "id": 8,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Ritual Relajante Legado",
     "longName": "Ritual Relajante Legado",
@@ -89,6 +121,10 @@
   },
   {
     "id": 9,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Ritual Lavado de Pies",
     "longName": "Ritual Lavado de Pies",
@@ -100,6 +136,10 @@
   },
   {
     "id": 10,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Agua Rituales Firma",
     "name": "Ritual de Aromaterapia “GOTAS DE LLUVIA”",
     "longName": "Ritual de Aromaterapia “GOTAS DE LLUVIA”",
@@ -111,6 +151,10 @@
   },
   {
     "id": 11,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Piel Radiante",
     "name": "Purificación a base de Miel ",
     "longName": "Purificación a base de Miel",
@@ -122,6 +166,10 @@
   },
   {
     "id": 12,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Piel Radiante",
     "name": "Masaje Tesoro Oculto con Fango",
     "longName": "Masaje Tesoro Oculto con Fango",
@@ -133,6 +181,10 @@
   },
   {
     "id": 13,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Piel Radiante",
     "name": "Tratamiento Marino a base de Algas",
     "longName": "Tratamiento Marino a base de Algas",
@@ -144,6 +196,10 @@
   },
   {
     "id": 14,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia Natural Egipcia",
     "longName": "Experiencia Natural Egipcia",
@@ -155,6 +211,10 @@
   },
   {
     "id": 15,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia Legado Griego",
     "longName": "Experiencia Legado Griego",
@@ -166,6 +226,10 @@
   },
   {
     "id": 16,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia Árabe en Pareja",
     "longName": "Experiencia Árabe en Pareja",
@@ -177,6 +241,10 @@
   },
   {
     "id": 17,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia México Ancestral en Pareja",
     "longName": "Experiencia México Ancestral en Pareja",
@@ -188,6 +256,10 @@
   },
   {
     "id": 18,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia Oriental Geotermal Piedras Calientes",
     "longName": "Experiencia Oriental Geotermal Piedras Calientes",
@@ -199,6 +271,10 @@
   },
   {
     "id": 19,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Masaje Legado al Alma",
     "longName": "Masaje Legado al Alma",
@@ -210,6 +286,10 @@
   },
   {
     "id": 20,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Experiencias",
     "name": "Experiencia Tesoro Alemán",
     "longName": "Experiencia Tesoro Alemán",
@@ -221,6 +301,10 @@
   },
   {
     "id": 21,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Seleccionados",
     "name": "Masaje Espalda",
     "longName": "Masaje Espalda",
@@ -232,6 +316,10 @@
   },
   {
     "id": 22,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Seleccionados",
     "name": "Masaje Piernas cansadas",
     "longName": "Masaje Piernas cansadas",
@@ -243,6 +331,10 @@
   },
   {
     "id": 23,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje Relajante",
     "longName": "Masaje Relajante",
@@ -254,6 +346,10 @@
   },
   {
     "id": 24,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Drenaje Linfático",
     "longName": "Drenaje Linfático",
@@ -265,6 +361,10 @@
   },
   {
     "id": 25,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje Tejido Profundo",
     "longName": "Masaje Tejido Profundo",
@@ -276,6 +376,10 @@
   },
   {
     "id": 26,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje Bambú",
     "longName": "Masaje Bambú",
@@ -287,6 +391,10 @@
   },
   {
     "id": 27,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje el Tesoro de Mamá",
     "longName": "Masaje el Tesoro de Mamá",
@@ -298,6 +406,10 @@
   },
   {
     "id": 28,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje Moldeante",
     "longName": "Masaje Moldeante",
@@ -309,6 +421,10 @@
   },
   {
     "id": 29,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Masaje Holístico",
     "longName": "Masaje Holístico",
@@ -320,6 +436,10 @@
   },
   {
     "id": 30,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Tesoro de Agua Relax",
     "longName": "Tesoro de Agua Relax",
@@ -331,6 +451,10 @@
   },
   {
     "id": 31,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Masajes Tradicionales",
     "name": "Terapia Hindú con Pindas",
     "longName": "Terapia Hindú con Pindas",
@@ -342,6 +466,10 @@
   },
   {
     "id": 32,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Servicio de Temazcales",
     "name": "Terapéutico",
     "longName": "Terapéutico",
@@ -353,6 +481,10 @@
   },
   {
     "id": 33,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Servicio de Temazcales",
     "name": "Ceremonial",
     "longName": "Ceremonial",
@@ -364,6 +496,10 @@
   },
   {
     "id": 34,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Tratamientos Faciales",
     "name": "Contorno de Ojos",
     "longName": "Contorno de Ojos",
@@ -375,6 +511,10 @@
   },
   {
     "id": 35,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Tratamientos Faciales",
     "name": "Mini Facial",
     "longName": "Mini Facial",
@@ -386,6 +526,10 @@
   },
   {
     "id": 36,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Tratamientos Faciales",
     "name": "4 Capas",
     "longName": "4 Capas",
@@ -397,6 +541,10 @@
   },
   {
     "id": 37,
+    "type": {
+      "id": 1,
+      "name": "rituales"
+    },
     "parent": "Tesoro de Tratamientos Faciales",
     "name": "Experiencia Renovadora",
     "longName": "Experiencia Renovadora",
