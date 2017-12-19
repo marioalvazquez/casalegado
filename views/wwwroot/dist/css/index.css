@@ -657,3 +657,19 @@ a.btn-white, .btn-white {
       text-decoration: none;
       font-style: italic;
       color: #B49651; }
+
+.conventions {
+  background: url("/wwwroot/build/img/eventos.jpg");
+  min-height: 400px;
+  color: #B49651;
+  background-size: cover;
+  background-position: 50%; }
+  .conventions a, .conventions a:hover, .conventions a:visited {
+    text-decoration: none;
+    color: #B49651;
+    border: 1px solid #B49651;
+    padding: 1rem 3rem;
+    margin: 3rem 0; }
+  .conventions h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid; }

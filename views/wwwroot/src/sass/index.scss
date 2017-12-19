@@ -803,3 +803,22 @@ a.btn-white, .btn-white{
     }
   }
 }
+//conventions
+.conventions{
+  background: url('/wwwroot/build/img/eventos.jpg');
+  min-height: 400px;
+  color: $gold;
+  background-size: cover;
+  background-position: 50%;
+  a, a:hover, a:visited{
+    text-decoration: none;
+    color: $gold;
+    border: 1px solid $gold;
+    padding: 1rem 3rem;
+    margin: 3rem 0;
+  }
+  h2{
+    font-size: 2rem;
+    border-bottom: 1px solid;
+  }
+}
