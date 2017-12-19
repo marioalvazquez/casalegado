@@ -3,6 +3,9 @@ $(document).ready(() => {
   showMenu();
   goHome();
   spaCards();
+  $('#booking').on('click', function(){
+    window.location.href = "https://www.facebook.com/profile.php?id=1357932847616214&ref=br_rs";
+  });
   setCurrentDate();
   activeWellness();
   $('.menu-mobile a').on('click', () => {

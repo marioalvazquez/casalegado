@@ -423,6 +423,9 @@ header {
   color: #FFF;
   padding: 2rem 0; }
 
+#exclusive:hover, #booking:hover {
+  cursor: pointer; }
+
 #services .services-col {
   min-height: 300px;
   background-size: cover !important;

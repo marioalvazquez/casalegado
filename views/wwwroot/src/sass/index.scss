@@ -532,7 +532,9 @@ p{
 
 
 //Services
-
+#exclusive:hover, #booking:hover{
+  cursor: pointer;
+}
 #services{
   .services-col{
     min-height: 300px;
