@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Villa Amistad",
-    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS, AMIGAS y FAMILIA",
+    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS y FAMILIA",
     "hero": "amistad/amistadblack.jpg",
     "price": "$9,248.00",
     "description": [
@@ -29,7 +29,7 @@
   {
     "id": 2,
     "name": "Villa Respeto",
-    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS, AMIGAS y FAMILIA",
+    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS y FAMILIA",
     "hero": "respeto/respetoblack.jpg",
     "price": "$8,545.00",
     "description": [
@@ -56,7 +56,7 @@
   {
     "id": 3,
     "name": "Villa Autenticidad",
-    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS, AMIGAS y FAMILIA",
+    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS y FAMILIA",
     "hero": "autenticidad/autenticidadblack.jpg",
     "price": "$7,226.00",
     "description": [
@@ -83,7 +83,7 @@
   {
     "id": 4,
     "name": "Villa Serenidad",
-    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS, AMIGAS y FAMILIA",
+    "heading": "Disfruta un fin de semana en comapañía de tus AMIGOS y FAMILIA",
     "hero": "serenidad/serenidadblack.jpg",
     "price": "$7,226.00",
     "description": [
